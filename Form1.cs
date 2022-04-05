@@ -926,7 +926,7 @@ namespace NeuroNet
 
                 string database = "Discounts";
                 string username = "sa";
-                string password = "cW0Az4c5";
+                string password = "*******";
 
                 return DBSQLServerUtils.GetDBConnection(datasource, database, username, password);
             }
@@ -940,7 +940,7 @@ namespace NeuroNet
                 // Data Source=TRAN-VMWARE\SQLEXPRESS;Initial Catalog=simplehr;Persist Security Info=True;User ID=sa;Password=12345
                 //
                 string connString = @"Data Source=" + datasource + ";Initial Catalog="
-                            + database + ";Persist Security Info=True;User ID=" + "sa" + ";Password=" + "cW0Az4c5";
+                            + database + ";Persist Security Info=True;User ID=" + "sa" + ";Password=" + "********";
 
                 SqlConnection conn = new SqlConnection(connString);
 
